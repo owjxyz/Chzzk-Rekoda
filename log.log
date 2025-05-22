@@ -1,0 +1,174 @@
+2025-05-22 08:15:11,040 - Recorder - INFO - Running on Linux. ffmpeg found at: /usr/bin/ffmpeg
+2025-05-22 08:15:11,043 - Recorder - INFO - Started recording task for new active channel: rhdqnwhago
+2025-05-22 08:15:11,043 - Recorder - INFO - Started recording task for new active channel: 릴카
+2025-05-22 08:15:11,043 - Recorder - INFO - Attempting to record stream for channel: rhdqnwhago
+2025-05-22 08:15:11,043 - Recorder - INFO - Attempting to record stream for channel: 릴카
+2025-05-22 08:15:11,043 - Recorder - DEBUG - Found stream URL for channel: rhdqnwhago
+2025-05-22 08:15:11,044 - Recorder - DEBUG - Fetching live info for channel: rhdqnwhago
+2025-05-22 08:15:11,639 - Recorder - DEBUG - Successfully fetched live info for channel: rhdqnwhago, data: {'code': 200, 'message': None, 'content': None}
+2025-05-22 08:15:11,639 - Recorder - ERROR - Failed to fetch live info for rhdqnwhago: 'NoneType' object has no attribute 'get'
+2025-05-22 08:15:11,639 - Recorder - INFO - Waiting for the channel 'rhdqnwhago' to go live...
+2025-05-22 08:15:12,043 - Recorder - DEBUG - Found stream URL for channel: 릴카
+2025-05-22 08:15:12,044 - Recorder - DEBUG - Fetching live info for channel: 릴카
+2025-05-22 08:15:12,176 - Recorder - DEBUG - Successfully fetched live info for channel: 릴카, data: {'code': 200, 'message': None, 'content': {'liveId': 12412417, 'liveTitle': '너무 추천받아서 하는 게임 릴카 프랑스어로 33원정대(재밌으면 길게)', 'status': 'OPEN', 'liveImageUrl': 'https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26441745/live/12412417/record/40482849/thumbnail/image_{type}.jpg', 'defaultThumbnailImageUrl': None, 'concurrentUserCount': 1616, 'accumulateCount': 0, 'openDate': '2025-05-22 15:38:48', 'closeDate': None, 'adult': False, 'krOnlyViewing': False, 'clipActive': False, 'tags': ['릴카', '삼성'], 'chatChannelId': 'N1owv4', 'categoryType': 'GAME', 'liveCategory': 'CLAIR_OBSCUR_EXPEDITION33', 'liveCategoryValue': '클레르 옵스퀴르: 33 원정대', 'chatActive': True, 'chatAvailableGroup': 'FOLLOWER', 'paidPromotion': False, 'chatAvailableCondition': 'REAL_NAME', 'minFollowerMinute': 5, 'allowSubscriberInFollowerMode': True, 'livePlaybackJson': '{"meta":{"videoId":"94EBC0BE9F9EC6F8B87E49A52657879D15A8","streamSeq":26441745,"liveId":"12412417","paidLive":false,"cdnInfo":{"cdnType":"GCDN","zeroRating":false},"cmcdEnabled":false,"playbackAuthType":"NONE"},"serviceMeta":{"contentType":"VIDEO"},"live":{"start":"2025-05-22T15:38:48","open":"2025-05-22T16:39:33","timeMachine":false,"status":"STARTED"},"api":[{"name":"p2p-config","path":"https://apis.naver.com/livecloud/livecloud/xray/p2p/v1/config/chzzk"},{"name":"qoeConfig","path":"https://apis.naver.com/policy/policy/policy"}],"media":[{"mediaId":"HLS","protocol":"HLS","path":"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0002/5kxw4q7cucjygafck51ele66j74dntqrpnqg/ruqsi3fmacsfpfz3mek9yap74dntqrpjzq_hls_playlist.m3u8?hdnts=st=1747901647~exp=1747962857~acl=*/5kxw4q7cucjygafck51ele66j74dntqrpnqg/*~hmac=ec5c4f26f43e6a0c30e3dc6a2dcd73d7fdd63e18d38a10cb824f63c4cbb75dab","encodingTrack":[{"encodingTrackId":"144p","videoProfile":"main","audioProfile":"LC","videoCodec":"H264","videoBitRate":128000,"audioBitRate":64000,"videoFrameRate":"30.0","videoWidth":256,"videoHeight":144,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"360p","videoProfile":"main","audioProfile":"LC","videoCodec":"H264","videoBitRate":600000,"audioBitRate":96000,"videoFrameRate":"30.0","videoWidth":640,"videoHeight":360,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"720p","videoProfile":"high","audioProfile":"LC","videoCodec":"H264","videoBitRate":3000000,"audioBitRate":192000,"videoFrameRate":"60.0","videoWidth":1280,"videoHeight":720,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"1080p","videoProfile":"high","audioProfile":"LC","videoCodec":"H264","videoBitRate":8192000,"audioBitRate":192000,"videoFrameRate":"60.0","videoWidth":1920,"videoHeight":1080,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":true,"videoDynamicRange":"SDR"},{"encodingTrackId":"480p","videoProfile":"main","audioProfile":"LC","videoCodec":"H264","videoBitRate":1500000,"audioBitRate":192000,"videoFrameRate":"30.0","videoWidth":852,"videoHeight":480,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"audioOnly","path":"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0002/5kxw4q7cucjygafck51ele66j74dntqrpnqg/ruqsi3fmacsfpfz3mek9yap74dntqrpjzq_hls_audioOnly_playlist.m3u8?hdnts=st=1747901647~exp=1747962857~acl=*/5kxw4q7cucjygafck51ele66j74dntqrpnqg/*~hmac=ec5c4f26f43e6a0c30e3dc6a2dcd73d7fdd63e18d38a10cb824f63c4cbb75dab","audioCodec":"AAC","audioBitRate":64000,"audioOnly":true,"audioSamplingRate":48000,"audioChannel":1,"avoidReencoding":false}]},{"mediaId":"LLHLS","protocol":"HLS","path":"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0002/5kxw4q7cucjygafck51ele66j74dntqrpnqg/ruqsi3fmacsfpfz3mek9yap74dntqrpjzq_playlist.m3u8?hdnts=st=1747901647~exp=1747962857~acl=*/5kxw4q7cucjygafck51ele66j74dntqrpnqg/*~hmac=ec5c4f26f43e6a0c30e3dc6a2dcd73d7fdd63e18d38a10cb824f63c4cbb75dab","latency":"lowLatency","encodingTrack":[{"encodingTrackId":"144p","videoProfile":"main","audioProfile":"LC","videoCodec":"H264","videoBitRate":128000,"audioBitRate":64000,"videoFrameRate":"30.0","videoWidth":256,"videoHeight":144,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"360p","videoProfile":"main","audioProfile":"LC","videoCodec":"H264","videoBitRate":600000,"audioBitRate":96000,"videoFrameRate":"30.0","videoWidth":640,"videoHeight":360,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"720p","videoProfile":"high","audioProfile":"LC","videoCodec":"H264","videoBitRate":3000000,"audioBitRate":192000,"videoFrameRate":"60.0","videoWidth":1280,"videoHeight":720,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"1080p","videoProfile":"high","audioProfile":"LC","videoCodec":"H264","videoBitRate":8192000,"audioBitRate":192000,"videoFrameRate":"60.0","videoWidth":1920,"videoHeight":1080,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":true,"videoDynamicRange":"SDR"},{"encodingTrackId":"480p","videoProfile":"main","audioProfile":"LC","videoCodec":"H264","videoBitRate":1500000,"audioBitRate":192000,"videoFrameRate":"30.0","videoWidth":852,"videoHeight":480,"audioSamplingRate":48000,"audioChannel":2,"avoidReencoding":false,"videoDynamicRange":"SDR"},{"encodingTrackId":"audioOnly","path":"https://livecloud.akamaized.net/chzzk/lip2_kr/cflexnmss2u0002/5kxw4q7cucjygafck51ele66j74dntqrpnqg/ruqsi3fmacsfpfz3mek9yap74dntqrpjzq_audioOnly_playlist.m3u8?hdnts=st=1747901647~exp=1747962857~acl=*/5kxw4q7cucjygafck51ele66j74dntqrpnqg/*~hmac=ec5c4f26f43e6a0c30e3dc6a2dcd73d7fdd63e18d38a10cb824f63c4cbb75dab","audioCodec":"AAC","audioBitRate":64000,"audioOnly":true,"audioSamplingRate":48000,"audioChannel":1,"avoidReencoding":false}]}],"thumbnail":{"snapshotThumbnailTemplate":"https://livecloud-thumb.akamaized.net/chzzk/livecloud/KR/stream/26441745/live/12412417/record/40482849/thumbnail/image_{type}.jpg","spriteSeekingThumbnail":{"spriteFormat":{"rowCount":3,"columnCount":4,"intervalType":"millisecond","interval":20000,"thumbnailWidth":160,"thumbnailHeight":90},"urlTemplate":"https://livecloud-thumb.akamaized.net/chzzk/kr/live-image/live/record/40482849/seeking/thumbnail/image_4x3x20000_12412417_{spriteIndex}.jpg","processingSeconds":120},"types":["1080","720","480","360","270","144"]},"multiview":[]}', 'p2pQuality': [], 'timeMachineActive': False, 'timeMachinePlayback': False, 'channel': {'channelId': '4d0b7d3f825ea982b95f0a5c2b4782d3', 'channelName': '릴카', 'channelImageUrl': 'https://nng-phinf.pstatic.net/MjAyMzEyMTlfNzkg/MDAxNzAyOTU0MTY4MDM4.2EH-ix9ISRu6b9NHV4NX-ZbLR_IWtnSx05rra91S9g8g.LQl6er9Fy9_Axi0B8vdVYXoEYfl_i-eY7OwoPlDmcl0g.PNG/%ED%94%84%EB%A1%9C%ED%95%84_%EC%82%AC%EC%A7%84%28%EC%A0%95%EB%B0%A9%ED%98%95%29.png', 'verifiedMark': True, 'activatedChannelBadgeIds': []}, 'livePollingStatusJson': '{"status": "STARTED", "isPublishing": true, "playableStatus": "PLAYABLE", "trafficThrottling": -1, "callPeriodMilliSecond": 10000}', 'userAdultStatus': None, 'blindType': None, 'chatDonationRankingExposure': True, 'adParameter': {'tag': 'none'}, 'dropsCampaignNo': None, 'watchPartyNo': None, 'watchPartyTag': None, 'watchPartyPaidProductId': None, 'earthquake': False, 'paidProduct': None}}
+2025-05-22 08:15:12,176 - Recorder - INFO - Recording started for 릴카 at 2025-05-22 08:15:12.
+2025-05-22 08:15:12,988 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+2025-05-22 08:15:12,988 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+2025-05-22 08:15:12,989 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+2025-05-22 08:15:13,008 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libavutil      56. 70.100 / 56. 70.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libavcodec     58.134.100 / 58.134.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libavformat    58. 76.100 / 58. 76.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libavdevice    58. 13.100 / 58. 13.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libavfilter     7.110.100 /  7.110.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libswscale      5.  9.100 /  5.  9.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libswresample   3.  9.100 /  3.  9.100
+2025-05-22 08:15:13,009 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: libpostproc    55.  9.100 / 55.  9.100
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'pipe:0':
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Metadata:
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: major_brand     : iso6
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: minor_version   : 0
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: compatible_brands: iso6
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: creation_time   : 2025-05-22T06:38:46.000000Z
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Duration: 01:35:59.05, start: 5757.999646, bitrate: N/A
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 1 kb/s, 59.98 fps, 60 tbr, 6k tbn, 120 tbc (default)
+2025-05-22 08:15:15,173 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Metadata:
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: creation_time   : 2025-05-22T06:38:46.000000Z
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: handler_name    : VideoHandler
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: vendor_id       : [0][0][0][0]
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 0 kb/s (default)
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Metadata:
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: creation_time   : 2025-05-22T06:38:46.000000Z
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: handler_name    : SoundHandler
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: vendor_id       : [0][0][0][0]
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Multiple -bsf, -absf or -vbsf options specified for stream 0, only the last option '-bsf setts=pts=PTS-STARTPTS' will be used.
+2025-05-22 08:15:15,174 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Multiple -bsf, -absf or -vbsf options specified for stream 1, only the last option '-bsf setts=pts=PTS-STARTPTS' will be used.
+2025-05-22 08:15:15,177 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Output #0, mpegts, to 'drive/MyDrive/chzzk/lilka/[2025-05-22 08_15_12] 릴카 너무 추천받아서 하는 게임 릴카 프랑스어로 33원정대(재밌으면 길게).ts.part':
+2025-05-22 08:15:15,178 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Metadata:
+2025-05-22 08:15:15,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: major_brand     : iso6
+2025-05-22 08:15:15,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: minor_version   : 0
+2025-05-22 08:15:15,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: compatible_brands: iso6
+2025-05-22 08:15:15,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: encoder         : Lavf58.76.100
+2025-05-22 08:15:15,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 1 kb/s, 59.98 fps, 60 tbr, 90k tbn, 6k tbc (default)
+2025-05-22 08:15:15,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Metadata:
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: creation_time   : 2025-05-22T06:38:46.000000Z
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: handler_name    : VideoHandler
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: vendor_id       : [0][0][0][0]
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 0 kb/s (default)
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Metadata:
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: creation_time   : 2025-05-22T06:38:46.000000Z
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: handler_name    : SoundHandler
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: vendor_id       : [0][0][0][0]
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream mapping:
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream #0:0 -> #0:0 (copy)
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Stream #0:1 -> #0:1 (copy)
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame=1
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=0.00
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:15,180 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=N/A
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=0
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=0
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=0
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:00.000000
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=N/A
+2025-05-22 08:15:15,181 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:15,181 - Recorder - DEBUG - Parsing out_time: 00:00:00.000000
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame=  591 fps=0.0 q=-1.0 size=    9984kB time=00:00:09.96 bitrate=8209.5kbits/s speed=19.9x    frame=591
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=0.00
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8209.5kbits/s
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=10223616
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=9962667
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=9962667
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:09.962667
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=19.9x
+2025-05-22 08:15:15,678 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:15,678 - Recorder - DEBUG - Parsing out_time: 00:00:09.962667
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame=  945 fps=944 q=-1.0 size=   15360kB time=00:00:15.71 bitrate=8005.9kbits/s speed=15.7x    frame=945
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=943.62
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8005.9kbits/s
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=15728640
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=15717011
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=15717011
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:15.717011
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=15.7x
+2025-05-22 08:15:16,179 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:16,179 - Recorder - DEBUG - Parsing out_time: 00:00:15.717011
+2025-05-22 08:15:16,681 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame= 1329 fps=883 q=-1.0 size=   22784kB time=00:00:22.99 bitrate=8116.0kbits/s speed=15.3x    frame=1329
+2025-05-22 08:15:16,681 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=883.45
+2025-05-22 08:15:16,681 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:16,681 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8116.0kbits/s
+2025-05-22 08:15:16,681 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=23330816
+2025-05-22 08:15:16,681 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=22997333
+2025-05-22 08:15:16,682 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=22997333
+2025-05-22 08:15:16,682 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:22.997333
+2025-05-22 08:15:16,682 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:16,682 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:16,682 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=15.3x
+2025-05-22 08:15:16,682 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:16,682 - Recorder - DEBUG - Parsing out_time: 00:00:22.997333
+2025-05-22 08:15:24,526 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame= 1800 fps=193 q=-1.0 size=   30976kB time=00:00:29.99 bitrate=8460.0kbits/s speed=3.21x    frame=1800
+2025-05-22 08:15:24,526 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=192.53
+2025-05-22 08:15:24,526 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:24,526 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8460.0kbits/s
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=31719424
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=29994667
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=29994667
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:29.994667
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=3.21x
+2025-05-22 08:15:24,527 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:24,527 - Recorder - DEBUG - Parsing out_time: 00:00:29.994667
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame= 2280 fps=231 q=-1.0 size=   39424kB time=00:00:37.99 bitrate=8500.2kbits/s speed=3.84x    frame=2280
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=230.69
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8500.2kbits/s
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=40370176
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=37994667
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=37994667
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:37.994667
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:25,060 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=3.84x
+2025-05-22 08:15:25,061 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:25,061 - Recorder - DEBUG - Parsing out_time: 00:00:37.994667
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame= 2349 fps=226 q=-1.0 size=   40192kB time=00:00:39.11 bitrate=8417.1kbits/s speed=3.77x    frame=2349
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=226.19
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8417.1kbits/s
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=41156608
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=39117011
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=39117011
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:39.117011
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=3.77x
+2025-05-22 08:15:25,562 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=continue
+2025-05-22 08:15:25,563 - Recorder - DEBUG - Parsing out_time: 00:00:39.117011
+2025-05-22 08:15:31,688 - Recorder - INFO - Received shutdown signal. Shutting down...
+2025-05-22 08:15:31,688 - Recorder - INFO - Recording task for 릴카 was cancelled.
+2025-05-22 08:15:31,696 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame= 2400 fps=145 q=-1.0 Lsize=   41387kB time=00:00:39.97 bitrate=8480.6kbits/s speed=2.42x
+2025-05-22 08:15:31,696 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: frame=2400
+2025-05-22 08:15:31,696 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: fps=145.29
+2025-05-22 08:15:31,696 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: stream_0_0_q=-1.0
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: bitrate=8480.6kbits/s
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: total_size=42380464
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_us=39978667
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time_ms=39978667
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: out_time=00:00:39.978667
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: dup_frames=0
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: drop_frames=0
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: speed=2.42x
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: progress=end
+2025-05-22 08:15:31,697 - Recorder - DEBUG - Parsing out_time: 00:00:39.978667
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: video:39094kB audio:938kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 3.387335%
+2025-05-22 08:15:31,697 - Recorder - DEBUG - ffmpeg stderr [4d0b7d3f825ea982b95f0a5c2b4782d3]: Exiting normally, received signal 2.
+2025-05-22 08:15:31,703 - Recorder - INFO - Recording saved to drive/MyDrive/chzzk/lilka/[2025-05-22 08_15_12] 릴카 너무 추천받아서 하는 게임 릴카 프랑스어로 33원정대(재밌으면 길게).ts
+2025-05-22 08:15:31,912 - Recorder - INFO - Recorder has been shut down.
